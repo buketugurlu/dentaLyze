@@ -1,0 +1,48 @@
+.completed-xrays-container {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .xray-container {
+    margin-bottom: 40px;
+    border: 2px solid #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .xray-container h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .xray-image {
+    width: 500px;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin-right: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .xray-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .xray-details {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .no-xrays {
+    font-size: 18px;
+    color: #777;
+    margin-top: 20px;
+  }
+  

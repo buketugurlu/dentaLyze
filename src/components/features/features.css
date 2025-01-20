@@ -1,0 +1,62 @@
+.features-section {
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .features-section h2 {
+    text-align: center;
+    color: #003366;
+    margin-bottom: 20px;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 20px;
+  }
+  
+  .feature-item {
+    flex: 1;
+    padding: 20px;
+    background: linear-gradient(to bottom, #e6f7ff, #b3e5fc);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .feature-item img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 15px;
+    border: 3px solid #0055a5; /* Çerçeve rengi */
+    border-radius: 50%; /* Yuvarlak çerçeve için */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Gölge efekti */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+   
+}
+.feature-item img:hover {
+    transform: scale(1.1); /* Hover ile hafif büyüme efekti */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); /* Hover ile daha belirgin gölge */
+    
+}
+  
+  .feature-item h3 {
+    font-size: 1.5em;
+    color: #003366;
+    margin-bottom: 10px;
+  }
+  
+  .feature-item p {
+    font-size: 1em;
+    color: #005580;
+  }
+  
+  .feature-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to top, #e6f7ff#e6f7ff, #b3e5fc);
+  }
+  

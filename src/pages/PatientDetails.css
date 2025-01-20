@@ -1,0 +1,155 @@
+.patient-details-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f7fbfe; /* Hafif mavi ton arka plan */
+}
+
+h1 {
+  text-align: center;
+  color: #003366; /* Lacivert başlık rengi */
+  margin-bottom: 30px;
+}
+
+.patient-info-container {
+  background: #eaf3fc; 
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+  border: 2px solid #d6e9f8; /* Soft mavi kenarlık */
+  margin: 20px auto; /* Ortaya hizalama */
+  text-align:left; /* Yazıyı ortala */
+}
+
+.patient-info-container p {
+  font-size: 18px;
+  color: #000000; /* Siyah metin rengi */
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.patient-info-header {
+  font-size: 22px;
+  color: #003366; /* Lacivert başlık rengi */
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.xray-container {
+  margin-bottom: 30px;
+  padding: 15px;
+  background: #ffffff; /* Beyaz çerçeve */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+}
+
+.xray-container img {
+  width: 45%;
+  height: auto;
+  border-radius: 10px;
+  margin: 0 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Görsel için hafif gölge */
+  border: 3px solid #d6e9f8; /* Görsel kenarı için soft mavi */
+}
+
+.information-container {
+  margin-top: 15px;
+  background: #eaf3fc; /* Hafif açık mavi */
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #d6e9f8;
+}
+
+.information-container ul {
+  list-style: none; /* Madde işaretlerini kaldır */
+  padding: 0;
+}
+
+.information-container li {
+  background: #d6f5e3; /* Hafif yeşil ton */
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Header düzenlemeleri */
+header {
+  background-color: #ffffff; /* Beyaz header arka planı */
+
+}
+
+header h1 {
+  color: #ffffff; /* Lacivert başlık rengi */
+  text-align: center;
+  font-size: 24px;
+  margin: 10px 0;
+  font-weight: bold;
+}
+.new-diagnosis {
+  margin-top: 30px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.new-diagnosis label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: #003366; /* DentaLyze mavi tonu */
+}
+
+.new-diagnosis input,
+.new-diagnosis textarea,
+.new-diagnosis select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccd9e2; /* Yumuşak gri mavi */
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.save-button {
+  background-color: #059a70; /* Yeşil tonu */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+.save-button:hover {
+  background-color: #047b5b;
+  transform: scale(1.05);
+}
+
+.control-button {
+  background-color: #0056b3; /* Yoğun mavi */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.control-button:hover {
+  background-color: #003d80;
+  transform: scale(1.05);
+}
+
+.date-picker {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccd9e2;
+  font-size: 1em;
+  width: 100%;
+}

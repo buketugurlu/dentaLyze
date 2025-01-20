@@ -1,0 +1,75 @@
+.patients-container {
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  min-height: 100vh;
+  position: relative; /* İçerikleri konumlandırmak için gerekli */
+}
+
+.patients-container h1 {
+  color: #003366;
+  margin-bottom: 20px;
+  font-size: 2.5em;
+}
+
+.patients-table {
+  width: 90%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.patients-table th,
+.patients-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  font-size: 1.1em;
+}
+
+.patients-table th {
+  background-color: #059a70;
+  color: white;
+  text-transform: uppercase;
+}
+
+.patients-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.patients-table tr:hover {
+  background-color: #d6f5e3;
+  transition: 0.3s;
+}
+
+.patient-button {
+  background-color: #059a70;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: all 0.3s ease;
+}
+
+.patient-button:hover {
+  background-color: #047b5b;
+  transform: scale(1.05);
+}
+
+/* Hasta Ekle butonunu sayfanın en altına yerleştirme */
+.patients-add-button-container {
+  position: fixed; /* Butonu sabit bir konuma alır */
+  bottom: 60px; /* Footer'ın hemen üstünde durmasını sağlar */
+  right: 20px; /* Sağ tarafa hizalar */
+  z-index: 100; /* Üstte kalmasını sağlar */
+}
+
+.patients-add-button-container .patient-button {
+  padding: 12px 20px; /* Butonu biraz daha büyük yapar */
+  font-size: 1.1em; /* Yazı boyutunu artırır */
+}

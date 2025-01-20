@@ -1,0 +1,68 @@
+.how-it-works-container {
+    padding: 40px;
+    max-width: 1000px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #e6f7ff, #b3e5fc);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #003366;
+  }
+  
+  .how-it-works-container h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-shadow:  0 0 2px rgba(5, 87, 68, 0.6);
+  }
+  
+  .how-it-works-container p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #005580;
+    margin-bottom: 20px;
+  }
+  
+  .steps {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .step h2 {
+    font-size: 1.8em;
+    color: #059a7095;
+    text-shadow:  0 0 2px rgba(5, 87, 68, 0.6);
+    margin-bottom: 10px;
+  }
+  
+  .step p {
+    font-size: 1.1em;
+    color: #005580;
+  }
+  
+  .benefits {
+    margin-top: 40px;
+  }
+  
+  .benefits h2 {
+    text-align: center;
+    font-size: 2em;
+    color: rgba(0, 85, 165, 0.9) ;
+    margin-bottom: 20px;
+    text-shadow:  2px 2px 5px white ;
+  }
+  
+  .benefits ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .benefits li {
+    font-size: 1.1em;
+    color: #005580;
+    margin-bottom: 10px;
+    
+  }
+  
+  

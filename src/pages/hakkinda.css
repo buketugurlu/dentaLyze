@@ -1,0 +1,81 @@
+.hakkinda-container {
+    padding: 40px;
+    max-width: 1000px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #e6f7ff, #b3e5fc);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .hakkinda-container h1 {
+    text-align: center;
+    color: #003366;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .hakkinda-container p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #005580;
+    margin-bottom: 20px;
+  }
+  
+  .hakkinda-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .hakkinda-container ul li {
+    background: #e6f7ff;
+    margin: 10px 0;
+    padding: 10px 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 1.1em;
+    color: #003366;
+  }
+  
+  .hakkinda-container .highlight {
+    font-weight: bold;
+    color: #059a70;
+  }
+  
+  .hakkinda-container .team {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    background: #f9fcff;
+    border: 1px solid #99ccff;
+    border-radius: 10px;
+  }
+  
+  .hakkinda-container .team h3 {
+    color: #003366;
+    font-size: 1.8em;
+  }
+  
+  .hakkinda-container .team p {
+    font-size: 1.2em;
+    color: #005580;
+    margin-top: 10px;
+  }
+  
+  .hakkinda-container .team img {
+    max-width: 90%; /* Resim genişliğini kapsayıcı alana göre ölçekle */
+    height: auto; /* Dikdörtgen oranını koru */
+    border-radius: 10px; /* Hafif yuvarlatılmış köşeler */
+    margin-top: 20px; /* Üstten boşluk */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3), 0 4px 8px rgba(0, 0, 0, 0.2); /* Çift gölge efekti */
+    border: 5px solid rgba(165, 205, 242, 0.8); /* Mavi tonlarında çerçeve */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hover efekti için animasyon */
+  }
+  
+  .hakkinda-container .team img:hover {
+    transform: scale(1.05); /* Hover sırasında hafif büyüme */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4); /* Daha derin gölge efekti */
+  }
+  
+  

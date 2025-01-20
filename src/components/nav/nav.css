@@ -1,0 +1,24 @@
+.nav {
+    display: flex;
+    justify-content: center;
+    background: rgba(0, 85, 165, 0.9);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+    position: sticky;
+    top: 0;
+  }
+  
+  .nav a {
+    color: white;
+    text-decoration: none;
+    /*margin: 0 15px;*/
+    font-size: 1.2em;
+    padding: 10px 60px ;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  .nav a:hover {
+    transform: scale(1.2);
+    color: #f3f4f6;
+    background-color: #003366;
+    box-shadow: 2px 4px 8px rgba(29, 60, 90, 0.9);
+  }
+  

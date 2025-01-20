@@ -1,0 +1,74 @@
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 40px;
+    max-width: 1000px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #e6f7ff, #b3e5fc);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .contact-column {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .contact-column h2 {
+    color: #003366;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+  }
+  
+  .contact-column ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .contact-column ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .contact-column ul li:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .contact-column ul li img {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+    object-fit: contain;
+  }
+  
+  .contact-column ul li a {
+    color: #003366;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .contact-column ul li a:hover {
+    color: #059a70;
+  }
+  
+  .contact-divider {
+    width: 2px;
+    background: #b3e5fc;
+    height: auto;
+    margin: 0 10px;
+    border-radius: 10px;
+  }
+  

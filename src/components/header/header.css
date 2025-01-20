@@ -1,0 +1,47 @@
+.header {
+    background: linear-gradient(to right, rgba(0, 85, 165, 0.8), rgba(0, 51, 102, 0.8));
+              /*  url('header-bg.jpg') no-repeat center/cover; /* Arka plan görseli */
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+    position: relative;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), 0 0 10px rgba(21, 219, 173, 0.6);
+    position: relative;
+    display: inline-block;
+  }
+  
+  .header h1::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -3px;
+    height: 3px;
+    background: linear-gradient(to right, #a5dccc95, #059a7095);
+    animation: underline-glow 2s infinite alternate;
+  }
+  
+  @keyframes underline-glow {
+    0% {
+      transform: scaleX(0);
+      opacity: 0.5;
+    }
+    100% {
+      transform: scaleX(1);
+      opacity: 1;
+    }
+  }
+  
+  .header p {
+    margin: 5px 0 0;
+    font-size: 1em;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  }
+  
+  
