@@ -6,9 +6,10 @@ import psycopg2.pool
 import os
 import requests
 import shutil
-output_directory = 'runs/detect/predict'
+output_directory = 'runs/detect/predict' 
 if os.path.exists(output_directory):
-        shutil.rmtree(output_directory)
+        shutil.rmtree(output_directory) #bu satırdaki silme işleminin sebebi özellikle vm'de her röntgen görüntüsü için yeni bir predict2 şeklinde dosya yolu oluştuğu içindir. 
+        
 
 # Flask ve CORS ayarları
 app = Flask(__name__)
