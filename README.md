@@ -1,6 +1,13 @@
-<<<<<<< HEAD
-dentaLyze ---->
-
+dentalyze---> YOLO v8 modeli, Dental OPG X-RAY Dataseti kullanarak eğitildi. Böylece eğitilen model ile hastaların panoromik diş röntgen görüntüleri üzerinden bir nesne tespit yöntemi modeli olan 
+YOLO kullanılarak 5 farklı diş hastalığı ve sağlıklı dişler tespit edilmektedir. Bunlar: 
+- Fractured Teeth
+- Caries
+- Impacted Teeth
+- Broken Down Cow / Root
+- Infection rahatsızlıkları tespit edilmektedir.
+Model, flask api kullanılarak web uygulamasıyla bağlantısı sağlanmıştır. Projenin taşınabilirliğini arttırmak hedeflendiği için Google Cloud üzerinde postgrSQL veritabanı oluşturulmuştur.
+Google VM kullanılarak oluşturulan virtual machine'e flask api uygulaması çalıştırılır.
+Web application için React.js , Node.js ve Express.js kullanılmıştır. 
 =======
 # Getting Started with Create React App
 
