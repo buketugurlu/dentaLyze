@@ -8,7 +8,8 @@ YOLO kullanılarak 5 farklı diş hastalığı ve sağlıklı dişler tespit edi
 Model, flask api kullanılarak web uygulamasıyla bağlantısı sağlanmıştır. Projenin taşınabilirliğini arttırmak hedeflendiği için Google Cloud üzerinde postgrSQL veritabanı oluşturulmuştur.
 Google VM kullanılarak oluşturulan virtual machine'e flask api uygulaması çalıştırılır.
 Web application için React.js , Node.js ve Express.js kullanılmıştır. 
-=======
+[dentalyze-poster (5).pdf](https://github.com/user-attachments/files/18768410/dentalyze-poster.5.pdf)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
